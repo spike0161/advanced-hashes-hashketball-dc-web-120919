@@ -276,7 +276,7 @@ end
 
 def long_name_steals_a_ton?
   num_of_steals = 0
-  long_name_steals = nil
+  long_name_steals = 0
   game_hash.each do |place, team|
     team[:players].each do |player|
       
