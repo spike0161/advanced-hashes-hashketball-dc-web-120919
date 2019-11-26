@@ -293,7 +293,7 @@ def long_name_steals_a_ton?
         num_of_steals = player[:steals]
        
        if num_of_steals == long_name_steals
-    return false
+    return true
   end
   end
 end
